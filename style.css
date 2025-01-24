@@ -179,18 +179,21 @@ html {
         width: 90%; /* Deixa o conteúdo mais estreito em telas pequenas */
     }
 
-    .projeto {
-        width: 100%; /* Faz os projetos ocuparem toda a largura da tela em dispositivos móveis */
-        margin-bottom: 20px;
-    }
+    .projeto{
+            width: 100%; /* Em telas menores, os projetos ocuparão toda a largura */
+            margin-bottom: 20px;
+        }
 
     .ferramentas {
-        flex-direction: column; /* Coloca as ferramentas em uma coluna */
-        align-items: center; /* Centraliza as ferramentas */
+            flex-direction: column; /* Organiza as ferramentas em uma coluna no celular */
+            align-items: center; /* Centraliza as ferramentas */
+            gap: 10px; /* Espaço entre os itens */
     }
 
     .contato-lista {
-        flex-direction: column; /* Coloca os itens de contato em uma coluna */
+        flex-direction: column; /* Organiza as ferramentas em uma coluna no celular */
+        align-items: center; /* Centraliza as ferramentas */
+        gap: 10px; /* Espaço entre os itens */
     }
 
     .navbar {

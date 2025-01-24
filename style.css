@@ -185,15 +185,14 @@ html {
         }
 
     .ferramentas {
-            flex-direction: column; /* Organiza as ferramentas em uma coluna no celular */
-            align-items: center; /* Centraliza as ferramentas */
-            gap: 10px; /* Espaço entre os itens */
+        flex-direction: row; /* Ferramentas ficam lado a lado */
+        align-items: center; /* Alinha no centro */
+        gap: 10px; /* Menos espaço entre as ferramentas */
     }
 
     .contato-lista {
-        flex-direction: column; /* Organiza as ferramentas em uma coluna no celular */
-        align-items: center; /* Centraliza as ferramentas */
-        gap: 10px; /* Espaço entre os itens */
+        flex-direction: row; /* Itens de contato lado a lado */
+        gap: 15px; /* Mais espaço entre os itens */
     }
 
     .navbar {

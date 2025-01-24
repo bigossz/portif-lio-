@@ -169,3 +169,55 @@ header {
 html {
     scroll-behavior: smooth;
 }
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+
+    header h1 {
+        font-size: 2.5rem;
+    }
+
+    header p {
+        font-size: 1rem;
+    }
+
+    .navbar {
+        position: static;
+        text-align: center;
+    }
+
+    .navbar ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .projeto {
+        display: block;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .sobre img {
+        width: 200px;
+    }
+
+    .contato-lista {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    .contato h2 {
+        font-size: 2rem;
+    }
+
+    .contato-lista a {
+        font-size: 1rem;
+        padding: 8px 16px;
+    }
+}

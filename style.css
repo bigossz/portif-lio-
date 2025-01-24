@@ -170,54 +170,41 @@ html {
     scroll-behavior: smooth;
 }
 @media (max-width: 768px) {
-    .container {
-        width: 90%;
-    }
-
+    /* Ajuste para telas menores */
     header h1 {
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
 
-    header p {
-        font-size: 1rem;
+    .container {
+        width: 90%; /* Deixa o conteúdo mais estreito em telas pequenas */
+    }
+
+    .projeto {
+        width: 100%; /* Faz os projetos ocuparem toda a largura da tela em dispositivos móveis */
+        margin-bottom: 20px;
+    }
+
+    .ferramentas {
+        flex-direction: column; /* Coloca as ferramentas em uma coluna */
+        align-items: center; /* Centraliza as ferramentas */
+    }
+
+    .contato-lista {
+        flex-direction: column; /* Coloca os itens de contato em uma coluna */
     }
 
     .navbar {
-        position: static;
+        position: static; /* Remove a barra fixa no topo */
+        margin-top: 20px; /* Espaço adicional em cima */
         text-align: center;
     }
 
     .navbar ul {
-        flex-direction: column;
-        gap: 10px;
+        display: block; /* Alinha os links da navbar verticalmente */
     }
 
-    .projeto {
-        display: block;
-        width: 100%;
-        margin-bottom: 20px;
-    }
-
-    .sobre img {
-        width: 200px;
-    }
-
-    .contato-lista {
-        flex-direction: column;
-    }
-}
-
-@media (max-width: 480px) {
-    header h1 {
-        font-size: 2rem;
-    }
-
-    .contato h2 {
-        font-size: 2rem;
-    }
-
-    .contato-lista a {
-        font-size: 1rem;
-        padding: 8px 16px;
+    .navbar a {
+        padding: 10px 20px;
+        margin: 10px 0;
     }
 }

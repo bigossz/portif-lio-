@@ -188,6 +188,11 @@ html {
         flex-direction: row; /* Ferramentas ficam lado a lado */
         align-items: center; /* Alinha no centro */
         gap: 10px; /* Menos espaço entre as ferramentas */
+        flex-wrap: wrap; /* Permite que as ferramentas se ajustem e quebrem para a próxima linha, se necessário */
+    }
+    .ferramentas li {
+        font-size: 9px; /* Reduz ainda mais o tamanho da fonte no celular */
+        padding: 5px 10px; /* Reduz o padding no celular */
     }
 
     .contato-lista {
